@@ -1,0 +1,9 @@
+def process_array(arr):
+    s = sum(arr)
+    avg = s / len(arr)
+    return s, avg
+
+for i in range(3):
+    arr = list(map(int, input().split()))
+    s, avg = process_array(arr)
+    print(s, avg)

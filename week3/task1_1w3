@@ -1,0 +1,20 @@
+import math
+
+def circle_area(r):
+    return math.pi * r * r
+
+def rectangle_area(a, b):
+    return a * b
+
+def triangle_area(a, h):
+    return 0.5 * a * h
+
+r = float(input("Radius: "))
+a = float(input("Rectangle side a: "))
+b = float(input("Rectangle side b: "))
+base = float(input("Triangle base: "))
+h = float(input("Triangle height: "))
+
+print(circle_area(r))
+print(rectangle_area(a, b))
+print(triangle_area(base, h))

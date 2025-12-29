@@ -1,0 +1,6 @@
+x, y, z, t = map(float, input().split())
+
+triangle = 0.5 * x * y
+rectangle = z * t
+
+print(triangle + rectangle)

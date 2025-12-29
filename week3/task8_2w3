@@ -1,0 +1,9 @@
+def swap(arr):
+    arr[0], arr[-1] = arr[-1], arr[0]
+
+m = int(input())
+A = list(map(int, input().split()))
+
+print("Original:", A)
+swap(A)
+print("Result:", A)
